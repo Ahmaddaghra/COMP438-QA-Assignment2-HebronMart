@@ -1,0 +1,44 @@
+# Katalon-generated build, cache, and execution output
+.gradle/
+bin/
+Reports/
+Libs/
+output/
+build/
+.cache/
+
+# Local Katalon account, integration, and database settings
+settings/external/
+settings/internal/com.kms.katalon.integration.analytics.properties
+
+# IDE metadata
+.classpath
+.project
+.settings/
+.idea/
+.vscode/
+*.iml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Local environment and secret files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+credentials.*
+secrets.*
