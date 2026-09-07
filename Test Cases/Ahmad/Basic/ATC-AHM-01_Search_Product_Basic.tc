@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Basic UI flow: search HebronMart for the Arabic keyword كتاب, open the first result, and verify the matching product title, price, seller, URL, and non-error state.</description>
+   <name>ATC-AHM-01_Search_Product_Basic</name>
+   <tag>GenAI,search,product,basic,ahmad</tag>
+   <comment>COMP438 Assignment 2 — Ahmad basic test</comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>114fb16b-2199-4c8e-af5e-2713a2161d1a</testCaseGuid>
+</TestCaseEntity>
