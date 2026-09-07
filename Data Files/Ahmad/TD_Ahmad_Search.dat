@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>Search scenarios for Ahmad's native data-driven HebronMart test.</description>
+   <name>TD_Ahmad_Search</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>0344ebff-0259-4b9d-bbee-ea5c11e0cf7a</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>ARABIC_GENERAL كتاب RESULTS كتاب</data>
+   <data>ENGLISH_PRODUCT Body%20scrub RESULTS Body</data>
+   <data>ARABIC_MULTIWORD كتاب%20مالك RESULTS كتاب%20مالك</data>
+   <data>NON_EXISTENT zzzqwerty123 EMPTY لا%20توجد%20منتجات!</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>caseId</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>query</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>expectedState</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>expectedText</name>
+      <size>4</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <origin>STUDIOASSIST</origin>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
