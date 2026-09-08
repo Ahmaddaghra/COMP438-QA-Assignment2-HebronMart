@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>Runs ATC-AHM-02 once for every row in TD_Ahmad_Search using native Katalon data binding.</description>
+   <name>TS_Ahmad_Search_DDT</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <maxConcurrentInstances>1</maxConcurrentInstances>
+   <numberOfRerun>0</numberOfRerun>
+   <orchestration>CLASSIC</orchestration>
+   <origin>STUDIOASSIST</origin>
+   <pageLoadTimeout>0</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>1084dce8-80fb-4178-910d-d6976fdcc8da</testSuiteGuid>
+   <testCaseLink>
+      <guid>4ca9ea69-c94e-4142-bf2f-9a3e685b53c7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Ahmad/DataDriven/ATC-AHM-02_Search_DataDriven</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>28a6f388-7413-49e7-bd97-60d069d74ecb</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Ahmad/TD_Ahmad_Search</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>28a6f388-7413-49e7-bd97-60d069d74ecb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>caseId</value>
+         <variableId>38c31d89-53d2-4252-b3f3-1653e95ca000</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>28a6f388-7413-49e7-bd97-60d069d74ecb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>query</value>
+         <variableId>479ba5ea-859c-4a5a-a48a-aaf0f6aa1b1e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>28a6f388-7413-49e7-bd97-60d069d74ecb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedState</value>
+         <variableId>72594305-ba19-49de-bba2-6e5dd4bf5eb6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>28a6f388-7413-49e7-bd97-60d069d74ecb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedText</value>
+         <variableId>22de892a-73e5-4885-984b-6dd34778f7a6</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

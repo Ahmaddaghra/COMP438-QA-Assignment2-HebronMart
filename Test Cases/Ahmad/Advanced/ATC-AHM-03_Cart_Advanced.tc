@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Dynamically discovers an in-stock product and verifies cart monetary integrity across AJAX-backed quantity changes using BigDecimal and a reusable custom keyword.</description>
+   <name>ATC-AHM-03_Cart_Advanced</name>
+   <tag>GenAI,advanced,monetary-integrity,cart</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5f18d9a8-1e34-41c8-9619-185029b4fd33</testCaseGuid>
+</TestCaseEntity>

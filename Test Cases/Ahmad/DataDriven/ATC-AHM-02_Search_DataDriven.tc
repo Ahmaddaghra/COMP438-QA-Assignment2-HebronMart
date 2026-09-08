@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validates HebronMart search behavior across Arabic, English, multi-word, and empty-result dataset rows using native Katalon data binding.</description>
+   <name>ATC-AHM-02_Search_DataDriven</name>
+   <tag>GenAI,search,data-driven,ahmad</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e7eac702-2f87-40d2-bc61-00468b1f5439</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Dataset row identifier.</description>
+      <id>38c31d89-53d2-4252-b3f3-1653e95ca000</id>
+      <masked>false</masked>
+      <name>caseId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Search query supplied by the bound dataset row.</description>
+      <id>479ba5ea-859c-4a5a-a48a-aaf0f6aa1b1e</id>
+      <masked>false</masked>
+      <name>query</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Expected search state: RESULTS or EMPTY.</description>
+      <id>72594305-ba19-49de-bba2-6e5dd4bf5eb6</id>
+      <masked>false</masked>
+      <name>expectedState</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Text expected in a result title or empty-state message.</description>
+      <id>22de892a-73e5-4885-984b-6dd34778f7a6</id>
+      <masked>false</masked>
+      <name>expectedText</name>
+   </variable>
+</TestCaseEntity>
