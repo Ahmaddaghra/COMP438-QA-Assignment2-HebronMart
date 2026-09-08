@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ATC-ANAS-01_Login_Success</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2707a8c2-55a0-482a-94d8-5fdc963b6f1b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8b0a0a28-470f-423e-9a8c-260ddbbd1358</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'anasshalabi5'</defaultValue>
+      <description>Password for the HebronMart login test. Enter the actual value in Katalon Studio before running.</description>
+      <id>8b0a0a28-470f-423e-9a8c-260ddbbd1358</id>
+      <masked>true</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
