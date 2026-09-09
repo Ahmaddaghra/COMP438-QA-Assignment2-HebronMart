@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Adds a pinned product to the anonymous wishlist from its product page, verifies it appears (identity + price), reopens the product, unfavourites it, and confirms the wishlist is empty.</description>
+   <name>ATC-SHA-03_Wishlist_Advanced</name>
+   <tag>advanced,wishlist,ajax,shareef</tag>
+   <comment></comment>
+   <testCaseGuid>97ca3502-cadc-4bbe-a493-385b34f8234b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c215e8a6-76f7-4625-8861-207726a7a12b</id>
+      <masked>false</masked>
+      <name>capturedTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5d3dd85c-a25f-4f04-941f-0c77b49f862b</id>
+      <masked>false</masked>
+      <name>capturedPrice</name>
+   </variable>
+</TestCaseEntity>
