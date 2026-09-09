@@ -4,4 +4,14 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://hebronmart.com/مراية-عروس-170'</initValue>
+      <name>wishlistProductUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://hebronmart.com/wishlist'</initValue>
+      <name>wishlistUrl</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

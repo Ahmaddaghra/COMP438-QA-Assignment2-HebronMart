@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_Shareef_Blog_DDT</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <maxConcurrentInstances>1</maxConcurrentInstances>
+   <numberOfRerun>3</numberOfRerun>
+   <orchestration>CLASSIC</orchestration>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>badd2be3-42cf-458e-9552-e7d34ab9f0d2</testSuiteGuid>
+   <testCaseLink>
+      <guid>a5965231-beff-438b-aea3-5bb16ecb97e1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Shareef/DataDriven/ATC-SHA-02_Blog_DataDriven</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>07752f72-da65-4cfd-9061-806fdecd40f9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Shareef/TD_Shareef_Blog</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>07752f72-da65-4cfd-9061-806fdecd40f9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>caseId</value>
+         <variableId>6f1e3b06-60aa-4c01-a699-a3ce1eebc610</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>07752f72-da65-4cfd-9061-806fdecd40f9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>articleUrl</value>
+         <variableId>20a4b1d1-6e8f-492b-8348-3a334bc004e3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>07752f72-da65-4cfd-9061-806fdecd40f9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedState</value>
+         <variableId>4c83d06c-341e-4dda-844e-b80abe7845b2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>07752f72-da65-4cfd-9061-806fdecd40f9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedTitle</value>
+         <variableId>8a34fd72-dd6c-4e0c-8381-ac0cb976b418</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

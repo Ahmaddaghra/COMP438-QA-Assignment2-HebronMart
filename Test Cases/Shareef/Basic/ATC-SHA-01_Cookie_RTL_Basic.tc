@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ATC-SHA-01_Cookie_RTL_Basic</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d3414a3f-56e5-44f3-af21-9e9133c7ac8b</testCaseGuid>
+</TestCaseEntity>
