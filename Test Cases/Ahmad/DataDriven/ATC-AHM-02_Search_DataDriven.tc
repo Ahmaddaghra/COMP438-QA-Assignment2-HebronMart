@@ -7,6 +7,30 @@
    <origin>STUDIOASSIST</origin>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>e7eac702-2f87-40d2-bc61-00468b1f5439</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>38c31d89-53d2-4252-b3f3-1653e95ca000</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>479ba5ea-859c-4a5a-a48a-aaf0f6aa1b1e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>72594305-ba19-49de-bba2-6e5dd4bf5eb6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>22de892a-73e5-4885-984b-6dd34778f7a6</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description>Dataset row identifier.</description>

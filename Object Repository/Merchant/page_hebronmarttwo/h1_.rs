@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_</name>
+   <tag></tag>
+   <elementGuidId>acdfd32d-5792-4db6-b348-ab2a8d31edb5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='wrapper']/div/div/div/div/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.title.text-success.font-weight-normal</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;تم إنشاء حسابك بنجاح!&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>8bc1c423-cdb9-491b-bbee-abaddc9ea84e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title text-success font-weight-normal</value>
+      <webElementGuid>1d153ff4-7796-4600-9313-26d89cf1466f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>تم إنشاء حسابك بنجاح!</value>
+      <webElementGuid>69fb86e5-47b7-489d-a8b6-2185e6911357</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wrapper&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;auth-container&quot;]/div[@class=&quot;auth-box&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/h1[@class=&quot;title text-success font-weight-normal&quot;]</value>
+      <webElementGuid>db5ab652-4ba8-484d-9dea-3ba92a3b0382</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='wrapper']/div/div/div/div/div/h1</value>
+      <webElementGuid>05b86426-f6d1-4394-a417-3d51a849a67c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='اختر موقعا'])[2]/following::h1[1]</value>
+      <webElementGuid>a5440bbf-db96-4160-bcf2-35b197ab80a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='مدينة'])[2]/following::h1[1]</value>
+      <webElementGuid>dd6bb199-77c5-4a3d-942f-960bb3f45c93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='أعد إرسال بريد التفعيل'])[1]/preceding::h1[1]</value>
+      <webElementGuid>721eb484-74ff-44f8-9e27-4fcf32bc4abd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='HebronMart | مول الخليل'])[1]/preceding::h1[1]</value>
+      <webElementGuid>13157884-6cfb-4f9f-a596-7e89398f8a25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='تم إنشاء حسابك بنجاح!']/parent::*</value>
+      <webElementGuid>346b48e9-3d60-40d3-b305-8ae84a4d185c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>b247cdf2-28e7-4e4d-8f17-c54e138995f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'تم إنشاء حسابك بنجاح!' or . = 'تم إنشاء حسابك بنجاح!')]</value>
+      <webElementGuid>2fd44401-93d9-424e-89d4-ea1f0a39c7bf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

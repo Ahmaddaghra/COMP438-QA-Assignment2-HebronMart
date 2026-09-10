@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_Abduallah_Merchant</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <maxConcurrentInstances>1</maxConcurrentInstances>
+   <numberOfRerun>3</numberOfRerun>
+   <orchestration>CLASSIC</orchestration>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>f4d3f839-8b76-47a6-8d8f-b26bec6261e6</testSuiteGuid>
+   <testCaseLink>
+      <guid>fc23fd91-e7d7-41e6-9a6c-2969d606426b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Abduallah/DataDriven/ATC-ABD-02_Category_Price_Sorting_DataDriven</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6036e384-0b97-4c91-8edf-b0d1e9f07423</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Abduallah/datadriven_abduallah_name</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>6036e384-0b97-4c91-8edf-b0d1e9f07423</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>firstName</value>
+         <variableId>7c7bd9a3-95b9-4500-85ec-caa3329b79e1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6036e384-0b97-4c91-8edf-b0d1e9f07423</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedresult</value>
+         <variableId>39531d5c-66f3-4081-a781-99a41ae8902c</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

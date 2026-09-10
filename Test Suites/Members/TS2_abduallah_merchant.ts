@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS2_abduallah_merchant</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <maxConcurrentInstances>1</maxConcurrentInstances>
+   <numberOfRerun>3</numberOfRerun>
+   <orchestration>CLASSIC</orchestration>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>0aee1da9-e9ba-4b3d-aa73-d6f88779b96d</testSuiteGuid>
+   <testCaseLink>
+      <guid>5181206b-0993-4aa1-ae55-80cadba8fa28</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Abduallah/Advanced/ATC-ABD-03_Contact_Form_Advanced</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>368ef2a4-89c5-4812-a3a1-23b002e441d6</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Abduallah/advanced_abduallah_name</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>368ef2a4-89c5-4812-a3a1-23b002e441d6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>db47325b-f950-46a9-84f2-81c196a1f7fe</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>368ef2a4-89c5-4812-a3a1-23b002e441d6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>result</value>
+         <variableId>df73c428-fda2-4a25-bd5c-76ca9fa123d1</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
