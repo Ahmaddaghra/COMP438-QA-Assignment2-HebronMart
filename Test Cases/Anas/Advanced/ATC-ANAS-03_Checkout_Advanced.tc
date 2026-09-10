@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ATC-ANAS-03_Checkout_Advanced</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>65cf5c16-6885-4029-983a-aeb050402beb</testCaseGuid>
+</TestCaseEntity>
