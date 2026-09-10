@@ -40,27 +40,32 @@ try {
     WebUI.waitForElementClickable(checkoutButton, 20)
     WebUI.click(checkoutButton)
 
-    // Fill shipping form top-to-bottom, right-to-left as it appears on screen
-    TestObject inp_firstName = runtimeXpath('inp_FirstName', "//input[@name='first_name']")
-    TestObject inp_lastName  = runtimeXpath('inp_LastName', "//input[@name='last_name']")
-    TestObject inp_email     = runtimeXpath('inp_ShippingEmail', "//input[@name='email']")
-    TestObject inp_phone     = runtimeXpath('inp_Phone', "//input[@name='phone_number']")
-    TestObject inp_city      = runtimeXpath('inp_City', "//input[@name='city']")
-    TestObject inp_zip       = runtimeXpath('inp_Zip', "//input[@name='zip_code']")
-    TestObject inp_address   = runtimeXpath('inp_Address', "//input[@name='address']")
+    // Define all shipping form objects
+    TestObject inp_firstName    = runtimeXpath('inp_FirstName', "//input[@name='first_name']")
+    TestObject inp_lastName     = runtimeXpath('inp_LastName', "//input[@name='last_name']")
+    TestObject inp_email        = runtimeXpath('inp_ShippingEmail', "//input[@type='email' and @placeholder='بريد الالكتروني']")
+    TestObject inp_phone        = runtimeXpath('inp_Phone', "//input[@name='phone_number']")
+    TestObject inp_city         = runtimeXpath('inp_City', "//input[@name='city']")
+    TestObject inp_zip          = runtimeXpath('inp_Zip', "//input[@name='zip_code']")
+    TestObject inp_address      = runtimeXpath('inp_Address', "//input[@name='address']")
     TestObject inp_addressTitle = runtimeXpath('inp_AddressTitle', "//input[@name='title']")
+
 
     WebUI.waitForElementVisible(inp_firstName, 15)
     WebUI.setText(inp_firstName, 'Anas')
     WebUI.setText(inp_lastName, 'Shalabi')
+
+    WebUI.waitForElementPresent(inp_email, 15)
+    WebUI.scrollToElement(inp_email, 10)
+    WebUI.waitForElementClickable(inp_email, 15)
+    WebUI.click(inp_email)
     WebUI.setText(inp_email, 'anasshalabi429@gmail.com')
     WebUI.setText(inp_phone, '0594386953')
+
     WebUI.setText(inp_city, 'Ramallah')
     WebUI.setText(inp_zip, 'P6270466')
     WebUI.setText(inp_address, 'Ramallah-Birzeit-University Junction')
-    WebUI.setText(inp_addressTitle, 'Birzeit')
 
-    // Country dropdown (select2 widget)
     TestObject ddl_country = runtimeXpath('ddl_Country', "//span[@id='select2-select_countries_new_address-container']")
     WebUI.waitForElementClickable(ddl_country, 15)
     WebUI.click(ddl_country)
@@ -68,9 +73,7 @@ try {
     WebUI.waitForElementClickable(palestineOption, 10)
     WebUI.click(palestineOption)
 
-    // ADVANCED INTERACTION: "ولاية" is a select2 JS widget, not a
-    // native <select>, so we click it open and pick the option by
-    // visible text instead of using selectOptionByLabel
+
     TestObject ddl_state = runtimeXpath('ddl_State', "//span[@id='select2-select_states_new_address-container']")
     WebUI.waitForElementClickable(ddl_state, 15)
     WebUI.click(ddl_state)
@@ -78,14 +81,17 @@ try {
     WebUI.waitForElementClickable(westBankOption, 10)
     WebUI.click(westBankOption)
 
-    TestObject submitShippingBtn = runtimeXpath('submitShippingBtn', "(//button[@type='submit'])[last()]")
+	TestObject submitShippingBtn = runtimeXpath('submitShippingBtn', "//button[@id='btnShowCartShippingError']")
+WebUI.waitForElementPresent(submitShippingBtn, 15)
+WebUI.scrollToElement(submitShippingBtn, 10)
+WebUI.waitForElementClickable(submitShippingBtn, 15)
+WebUI.click(submitShippingBtn)
     WebUI.waitForElementClickable(submitShippingBtn, 15)
     WebUI.click(submitShippingBtn)
 
     WebUI.waitForElementVisible(rejectionMessage, 20)
 
-    // BUG-05 from Assignment 1 manual testing: this documents a known, previously verified application defect.
-    // Update only if the actual application behavior changes; never adjust this assertion merely to force a pass.
+  
     assert WebUI.verifyTextPresent('لا يتم التسليم إلى العنوان الذي اخترته', false)
     WebUI.takeScreenshot(FailureHandling.OPTIONAL)
 } finally {
