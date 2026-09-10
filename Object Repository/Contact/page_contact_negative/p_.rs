@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_</name>
+   <tag></tag>
+   <elementGuidId>3cd30b84-7deb-42da-8098-562ffe1aa160</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='form_validate']/div[4]/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.text-danger</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;عليك أن تقبل الشروط!&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>d3c474b1-ff3a-48a2-a52f-7f7d38f5b711</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-danger</value>
+      <webElementGuid>1f25196e-afd1-47d9-bd7e-a602a097601a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>عليك أن تقبل الشروط!</value>
+      <webElementGuid>c73762ae-028e-4b52-aa76-f4c10741c59f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form_validate&quot;)/div[@class=&quot;form-group&quot;]/div[@class=&quot;custom-control custom-checkbox custom-control-validate-input custom-control-validate-error&quot;]/p[@class=&quot;text-danger&quot;]</value>
+      <webElementGuid>e4bafba1-41bd-4427-befd-e02541648127</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='form_validate']/div[4]/div/p</value>
+      <webElementGuid>308f7f18-b43a-41ce-afbd-d99588bb9712</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='شروط واحكام'])[3]/following::p[1]</value>
+      <webElementGuid>d302d04b-9aa4-4ff0-b971-f6c275f98bf5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='إرسال'])[1]/preceding::p[1]</value>
+      <webElementGuid>e2b8fc6b-dead-4359-8e0e-2ba1ec312b70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='عليك أن تقبل الشروط!']/parent::*</value>
+      <webElementGuid>27b6ebf9-8838-45a1-b4ec-079bad8ccceb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/p</value>
+      <webElementGuid>7aa2ddc8-a4d6-449f-8d31-5878513b0b8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'عليك أن تقبل الشروط!' or . = 'عليك أن تقبل الشروط!')]</value>
+      <webElementGuid>cf091652-fb98-4744-8d5c-cd0bb7ed07ce</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

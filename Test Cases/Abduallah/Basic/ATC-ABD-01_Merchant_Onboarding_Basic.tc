@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ATC-ABD-01_Merchant_Onboarding_Basic</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c85626b3-b47a-4e7d-993a-ae845327d663</testCaseGuid>
+</TestCaseEntity>
