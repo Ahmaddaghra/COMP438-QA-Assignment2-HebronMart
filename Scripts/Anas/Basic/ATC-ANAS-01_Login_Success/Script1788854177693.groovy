@@ -11,7 +11,6 @@ WebUI.setText(findTestObject('Object Repository/Login/inp_password'), password)
 WebUI.click(findTestObject('Object Repository/Login/btn_login_submit'))
 WebUI.waitForPageLoad(10)
 
-// Verify that the logged-in user's name appears at the top of the page.
 WebUI.verifyTextPresent('Anas Shalabi', false)
 
 WebUI.closeBrowser()

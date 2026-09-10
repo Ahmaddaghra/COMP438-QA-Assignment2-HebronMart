@@ -34,7 +34,6 @@ try {
     WebUI.click(loginSubmit)
     WebUI.waitForPageLoad(20)
 
-    // Choose the assertion from the dataset's expected outcome so each row passes or fails correctly.
     if (rowExpectedResult == 'SUCCESS') {
         WebUI.verifyTextPresent('Anas Shalabi', false)
     } else {
